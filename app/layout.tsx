@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'Bumblebee Security' }],
   robots: { index: true, follow: true },
   referrer: 'no-referrer',
-  metadataBase: new URL('https://bumblebee.security'),
+  metadataBase: new URL('https://bumbleboard.vercel.app'),
   alternates: {
     canonical: '/dashboard',
   },
