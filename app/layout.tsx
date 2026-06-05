@@ -83,6 +83,9 @@ export const metadata: Metadata = {
     apple: '/favicon/apple-icon.png',
   },
   manifest: 'favicon/site.webmanifest',
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION
+  }
 }
 
 // Note: CSP, X - Frame - Options, X - Content - Type - Options can't go in metadata — add them as HTTP headers in next.config.ts:
